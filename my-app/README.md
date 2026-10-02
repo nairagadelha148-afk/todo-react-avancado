@@ -1,3 +1,5 @@
+ lista de tarefas (Todo List) 
+
 Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais do React, principalmente gerenciamento de estado, Context API, hooks, eventos, renderização de listas e memoização. 
 
 Tecnologias utilizadas:
