@@ -1,16 +1,28 @@
-# React + Vite
+Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais do React, principalmente gerenciamento de estado, Context API, hooks, eventos, renderização de listas e memoização. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Tecnologias utilizadas:
+React
+Vite
+JavaScript
+HTML
+CSS
 
-Currently, two official plugins are available:
+Durante o desenvolvimento do projeto foram utilizados:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+useState — gerenciamento de estados
+useContext / Context API — compartilhamento do estado das tarefas entre componentes
+Custom Hook (useInput) — controle do campo de entrada
+useMemo — memorização do resultado da filtragem
+React.memo — memorização do componente de tarefa
+Props — passagem de dados entre componentes
+Eventos (onChange e onClick)
+Array methods (map e filter)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Funcionalidades:
+➕ Adicionar novas tarefas
+✅ Marcar tarefas como concluídas
+🗑️ Excluir tarefas
+🔎 Filtrar tarefas:
+Todas
+Completas
+Pendentes
