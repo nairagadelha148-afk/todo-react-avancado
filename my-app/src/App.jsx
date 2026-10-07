@@ -2,10 +2,8 @@ import { CompartilharProvider } from './componentes/context/Context'
 import { useInput } from './componentes/useinput'
 import NomeDaTarefa from './componentes/form'
 import Lista from './componentes/lista'
+import './App.css'
 
-<CompartilharProvider>
-    <NomeDaTarefa />
-</CompartilharProvider>
 
 function App() {
 
@@ -14,8 +12,8 @@ function App() {
 
 return (
     <CompartilharProvider>
-      <div>
-        <h1>Minha lista de tarefas</h1>
+      <div className="App">
+        <h1 className="titulo">Minha lista de tarefas</h1>
         <NomeDaTarefa />
         <Lista/>
       </div>
